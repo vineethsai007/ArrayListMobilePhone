@@ -9,7 +9,7 @@ public class MobilePhone {
     public MobilePhone(String myNumber) {
         this.myNumber = myNumber;
         this.myContacts = new ArrayList<Contact>();
-
+//just to check git
     }
 
     public boolean addNewContact(Contact contact) {
