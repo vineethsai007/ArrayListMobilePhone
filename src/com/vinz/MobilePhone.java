@@ -64,7 +64,7 @@ public class MobilePhone {
     public Contact queryContact(String name){
         int position = findContact(name);
         if(position>=0){
-            return this.myContacts.get(position);
+            return this.myContacts.get(position); //hello
         }
         return null;
     }
